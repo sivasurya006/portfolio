@@ -12,7 +12,7 @@ export default function About() {
         "MySQL": <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="24" height="24" alt="MySQL logo" />,
         "Node.js": <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="24" height="24" alt="Node.js logo" />,
         "Express.js": <img src="https://cdn.simpleicons.org/express/ffffff" width="24" height="24" alt="Express.js logo" />,
-        "Struts 2": <img src="./src/assets/project_thumbnail/struts.png" width="24" height="24" alt="Struts 2 logo" />,
+        "Struts 2": <img src="/portfolio/assets/project_thumbnail/struts.png" width="24" height="24" alt="Struts 2 logo" />,
         "Expo": <img src="https://cdn.simpleicons.org/expo/ffffff" width="24" height="24" alt="Expo logo" />
     };
 
