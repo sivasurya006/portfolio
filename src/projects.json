@@ -10,7 +10,7 @@
     ],
     "url": "https://testora-kqvp.onrender.com",
     "githubUrl": "https://github.com/sivasurya006/Testora",
-    "imgUrl": "./src/assets/project_thumbnail/testora.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/testora.png",
     "lang": [
       "Java",
       "Struts 2",
@@ -28,7 +28,7 @@
     ],
     "url": "",
     "githubUrl": "https://github.com/sivasurya006/Work-drive-CLI_v2",
-    "imgUrl": "./src/assets/project_thumbnail/workdrive.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/workdrive.png",
     "lang": [
       "java"
     ]
@@ -42,7 +42,7 @@
     ],
     "url": "",
     "githubUrl": "https://github.com/sivasurya006/TreeMap_Implementation",
-    "imgUrl": "./src/assets/project_thumbnail/dsa.jpeg",
+    "imgUrl": "/portfolio/assets/project_thumbnail/dsa.jpeg",
     "lang": [
       "java"
     ]
@@ -55,7 +55,7 @@
     ],
     "url": "",
     "githubUrl": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/FIleEncryptionAndDecryption-1/",
-    "imgUrl": "./src/assets/project_thumbnail/web_file_enc.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/web_file_enc.png",
     "lang": [
       "html & css",
       "js"
@@ -70,7 +70,7 @@
     ],
     "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Web_Project/Project/index.html",
     "githubUrl": "https://github.com/sivasurya006/Mutiplayer_AI_clone",
-    "imgUrl": "./src/assets/project_thumbnail/multiplayer.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/multiplayer.png",
     "lang": [
       "html & css"
     ]
@@ -84,7 +84,7 @@
     ],
     "url": "",
     "githubUrl": "https://github.com/sivasurya006/Advanced_JS_mini_projects/tree/master/CipherSafe_v2",
-    "imgUrl": "./src/assets/project_thumbnail/ciphersafe_v2.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/ciphersafe_v2.png",
     "lang": [
       "html & css",
       "js",
@@ -101,7 +101,7 @@
     ],
     "url": "https://sivasurya006.github.io/quiz-app/",
     "githubUrl": "https://github.com/sivasurya006/quiz-app/",
-    "imgUrl": "./src/assets/project_thumbnail/quiz.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/quiz.png",
     "lang": [
       "html & css",
       "js"
@@ -116,7 +116,7 @@
     ],
     "url": "https://sivasurya006.github.io/weather-app/",
     "githubUrl": "https://github.com/sivasurya006/weather-app",
-    "imgUrl": "./src/assets/project_thumbnail/weather.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/weather.png",
     "lang": [
       "html & css",
       "js"
@@ -131,7 +131,7 @@
     ],
     "url": "https://sivasurya006.github.io/flight-tracker/",
     "githubUrl": "https://github.com/sivasurya006/flight-tracker",
-    "imgUrl": "./src/assets/project_thumbnail/flight_tracker.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/flight_tracker.png",
     "lang": [
       "html & css",
       "js"
@@ -146,7 +146,7 @@
     ],
     "url": "",
     "githubUrl": "https://github.com/sivasurya006/Advanced_JS_mini_projects/tree/master/CipherSafe_v2",
-    "imgUrl": "./src/assets/project_thumbnail/planets.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/planets.png",
     "lang": [
       "html & css",
       "node.js",
@@ -163,7 +163,7 @@
     ],
     "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_014/pixelarity.html",
     "githubUrl": "",
-    "imgUrl": "./src/assets/project_thumbnail/pixelarity.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/pixelarity.png",
     "lang": [
       "html & css"
     ]
@@ -177,7 +177,7 @@
     ],
     "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_013/fylo.html",
     "githubUrl": "",
-    "imgUrl": "./src/assets/project_thumbnail/fylo.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/fylo.png",
     "lang": [
       "html & css"
     ]
@@ -191,7 +191,7 @@
     ],
     "url": "https://scratch.mit.edu/projects/1192105044/fullscreen/",
     "githubUrl": "",
-    "imgUrl": "./src/assets/project_thumbnail/bobTheRobber.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/bobTheRobber.png",
     "lang": [
       "scratch"
     ]
@@ -206,7 +206,7 @@
     ],
     "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Project_Space/scratch_projects/Humans%20of%20Zoho/humansofzoho.html",
     "githubUrl": "",
-    "imgUrl": "./src/assets/project_thumbnail/humansofzoho.png",
+    "imgUrl": "/portfolio/assets/project_thumbnail/humansofzoho.png",
     "lang": [
       "scratch"
     ]

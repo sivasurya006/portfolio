@@ -46,7 +46,7 @@ export default function HeroContainer() {
                 </div>
             </div>
             <div className='profile-container'>
-                <img src="./src/assets/profile.png" alt="profile" className='profile-pic' />
+                <img src="/portfolio/assets/profile.png" alt="profile" className='profile-pic' />
             </div>
             {showScroll && (
                 <div onClick={() => window.location = '#about'} className='scroll-indicator'>
