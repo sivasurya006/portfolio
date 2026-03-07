@@ -30,7 +30,7 @@ export default function HeroContainer() {
             <div className="hero-container">
                 <div className='flex-row'>
                     <h2 className="hero-texts">Hello</h2>
-                    <div className="dot"></div>
+                    <div className="comma">,</div>
                 </div>
                 <div className='flex-row relative'>
                     <div className='hero-bar'></div>

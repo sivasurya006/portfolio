@@ -69,16 +69,14 @@ html {
   border-color: var(--secondary-color);
 }
 
-.dot {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background-color: var(--secondary-color);
+.comma {
+  color: var(--secondary-color);
   align-self: flex-end;
   margin-bottom: 10px;
   opacity: 0;
   animation: fadeIn 0.8s ease forwards;
   animation-delay: 0.3s;
+  font-size: 2.5rem;
 }
 
 .hero-texts {
