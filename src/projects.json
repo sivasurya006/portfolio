@@ -2,7 +2,7 @@
   {
     "id": "java-3",
     "title": "Testora",
-    "desc": "A digital assessment platform that allows organizations to create, manage, and evaluate online tests with seamless web and mobile support.",
+    "desc": "A digital assessment platform that allows organizations to create, manage, and evaluate online tests with seamless web and mobile support. Includes exam-integrity features such as tab-switch detection to discourage cheating.",
     "category": [
       "Java",
       "Group project",
