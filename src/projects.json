@@ -1,0 +1,214 @@
+[
+  {
+    "id": "java-3",
+    "title": "Testora",
+    "desc": "A digital assessment platform that allows organizations to create, manage, and evaluate online tests with seamless web and mobile support.",
+    "category": [
+      "Java",
+      "Group project",
+      "React Native"
+    ],
+    "url": "https://testora-kqvp.onrender.com",
+    "githubUrl": "https://github.com/sivasurya006/Testora",
+    "imgUrl": "./src/assets/project_thumbnail/testora.png",
+    "lang": [
+      "Java",
+      "Struts 2",
+      "ReactNative",
+      "expo",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "java-2",
+    "title": "File Management System - CLI",
+    "desc": "Java-based file management system to create, share, read, update, and delete files.",
+    "category": [
+      "Java"
+    ],
+    "url": "",
+    "githubUrl": "https://github.com/sivasurya006/Work-drive-CLI_v2",
+    "imgUrl": "./src/assets/project_thumbnail/workdrive.png",
+    "lang": [
+      "java"
+    ]
+  },
+      {
+    "id": "java-1",
+    "title": "TreeMap",
+    "desc": "Java implementation demonstrating the usage of TreeMap for sorted key-value data storage.",
+    "category": [
+      "Java"
+    ],
+    "url": "",
+    "githubUrl": "https://github.com/sivasurya006/TreeMap_Implementation",
+    "imgUrl": "./src/assets/project_thumbnail/dsa.jpeg",
+    "lang": [
+      "java"
+    ]
+  },
+  {
+    "title": "Cypher Safe",
+    "desc": "Web-based file encryptor and decryptor implementing the AES algorithm using JavaScript",
+    "category": [
+      "Js"
+    ],
+    "url": "",
+    "githubUrl": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/FIleEncryptionAndDecryption-1/",
+    "imgUrl": "./src/assets/project_thumbnail/web_file_enc.png",
+    "lang": [
+      "html & css",
+      "js"
+    ]
+  },
+  {
+    "id": "htmlcss-1",
+    "title": "Multiplayer (Re-design)",
+    "desc": "This project is created to practice responsive layout, semantic structure, and modern web design fundamentals.",
+    "category": [
+      "HTML & CSS"
+    ],
+    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Web_Project/Project/index.html",
+    "githubUrl": "https://github.com/sivasurya006/Mutiplayer_AI_clone",
+    "imgUrl": "./src/assets/project_thumbnail/multiplayer.png",
+    "lang": [
+      "html & css"
+    ]
+  },
+    {
+    "id": "node-2",
+    "title": "Cypher Safe 2.0",
+    "desc": "Full-stack file encryptor/decryptor with Node.js backend, auth system, and usage history",
+    "category": [
+      "Node.js"
+    ],
+    "url": "",
+    "githubUrl": "https://github.com/sivasurya006/Advanced_JS_mini_projects/tree/master/CipherSafe_v2",
+    "imgUrl": "./src/assets/project_thumbnail/ciphersafe_v2.png",
+    "lang": [
+      "html & css",
+      "js",
+      "MySQL",
+      "node.js"
+    ]
+  },
+  {
+    "id": "js-1",
+    "title": "Quiz App",
+    "desc": "Interactive quiz application built with Node.js to test knowledge with instant scoring.",
+    "category": [
+      "Js"
+    ],
+    "url": "https://sivasurya006.github.io/quiz-app/",
+    "githubUrl": "https://github.com/sivasurya006/quiz-app/",
+    "imgUrl": "./src/assets/project_thumbnail/quiz.png",
+    "lang": [
+      "html & css",
+      "js"
+    ]
+  },
+  {
+    "id": "js-2",
+    "title": "Weather App",
+    "desc": "JavaScript-based weather app featuring live forecasts and interactive map support.",
+    "category": [
+      "Js"
+    ],
+    "url": "https://sivasurya006.github.io/weather-app/",
+    "githubUrl": "https://github.com/sivasurya006/weather-app",
+    "imgUrl": "./src/assets/project_thumbnail/weather.png",
+    "lang": [
+      "html & css",
+      "js"
+    ]
+  },
+  {
+    "id": "js-3",
+    "title": "Flight Tracker",
+    "desc": "Flight tracker web app with pagination for browsing large flight datasets.",
+    "category": [
+      "Js"
+    ],
+    "url": "https://sivasurya006.github.io/flight-tracker/",
+    "githubUrl": "https://github.com/sivasurya006/flight-tracker",
+    "imgUrl": "./src/assets/project_thumbnail/flight_tracker.png",
+    "lang": [
+      "html & css",
+      "js"
+    ]
+  },
+  {
+    "id": "node-1",
+    "title": "The Planets",
+    "desc": "Full-stack file encryptor/decryptor with Node.js backend, auth system, and usage history",
+    "category": [
+      "Node.js"
+    ],
+    "url": "",
+    "githubUrl": "https://github.com/sivasurya006/Advanced_JS_mini_projects/tree/master/CipherSafe_v2",
+    "imgUrl": "./src/assets/project_thumbnail/planets.png",
+    "lang": [
+      "html & css",
+      "node.js",
+      "ejs",
+      "node.js"
+    ]
+  },
+  {
+    "id": "htmlcss-3",
+    "title": "Pixelarity (Re-design)",
+    "desc": "This project focuses on flexible layouts, media queries, across mobile, tablet, and desktop devices.",
+    "category": [
+      "HTML & CSS"
+    ],
+    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_014/pixelarity.html",
+    "githubUrl": "",
+    "imgUrl": "./src/assets/project_thumbnail/pixelarity.png",
+    "lang": [
+      "html & css"
+    ]
+  },
+  {
+    "id": "htmlcss-4",
+    "title": "Fylo (Re-design)",
+    "desc": "A responsive recreation of the Fylo landing page focusing on layout accuracy, semantic markup, and modern CSS styling.",
+    "category": [
+      "HTML & CSS"
+    ],
+    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_013/fylo.html",
+    "githubUrl": "",
+    "imgUrl": "./src/assets/project_thumbnail/fylo.png",
+    "lang": [
+      "html & css"
+    ]
+  },
+  {
+    "id": "scratch-1",
+    "title": "Bob The Robber",
+    "desc": "Interactive Scratch game where players control Bob to navigate obstacles and collect treasures",
+    "category": [
+      "Scratch"
+    ],
+    "url": "https://scratch.mit.edu/projects/1192105044/fullscreen/",
+    "githubUrl": "",
+    "imgUrl": "./src/assets/project_thumbnail/bobTheRobber.png",
+    "lang": [
+      "scratch"
+    ]
+  },
+  {
+    "id": "scratch-2",
+    "title": "Humans of Zoho",
+    "desc": "Collaborative Scratch project Drawing the Humans of Zoho through pixel art.",
+    "category": [
+      "Scratch",
+      "Group project"
+    ],
+    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Project_Space/scratch_projects/Humans%20of%20Zoho/humansofzoho.html",
+    "githubUrl": "",
+    "imgUrl": "./src/assets/project_thumbnail/humansofzoho.png",
+    "lang": [
+      "scratch"
+    ]
+  }
+]
