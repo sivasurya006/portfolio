@@ -3,6 +3,7 @@ import '../styles/style.css'
 import '../styles/TypeAnimation.css'
 import PrimaryButton from './PrimaryButton'
 import SecondaryButton from './SecondaryButton'
+import Loader from './Loading'
 
 
 export default function HeroContainer() {
@@ -31,6 +32,7 @@ export default function HeroContainer() {
                 <div className='flex-row'>
                     <h2 className="hero-texts">Hello</h2>
                     <div className="comma">,</div>
+                    {/* <Loader/> */}
                 </div>
                 <div className='flex-row relative'>
                     <div className='hero-bar'></div>

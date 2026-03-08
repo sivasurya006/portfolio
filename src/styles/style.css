@@ -80,8 +80,9 @@ html {
 }
 
 .hero-texts {
-  font-size: 4rem;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .flex-row {
@@ -90,7 +91,7 @@ html {
 }
 
 .hero-text-two {
-  font-size: 2.8rem;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 500;
   margin-left: 1.3rem;
 }
@@ -257,6 +258,51 @@ button:hover {
 }
 .hero-section .profile-pic {
   animation-delay: 1s;
+}
+
+/* Scroll-based fade animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-left.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-right.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-up.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .scroll-text {
@@ -597,7 +643,7 @@ button:hover {
 .project-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-top: auto;
   gap: 1rem;
 }
@@ -680,11 +726,10 @@ button:hover {
   }
 
   .hero-texts {
-    font-size: 2.5rem;
+    /* font-size handled by clamp() */
   }
 
   .hero-text-two {
-    font-size: 2rem;
     margin-left: 0.5rem;
   }
 
@@ -704,3 +749,17 @@ button:hover {
     width: 100%;
   }
 }
+/* 
+.loader  {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(360deg, #000000 0%, #ff6666 100%);
+  animation: loader 2s infinite;
+}
+
+@keyframes loader  {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */

@@ -1,6 +1,9 @@
 import '../styles/style.css'
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 export default function About() {
+
+    const [aboutRef, isAboutVisible] = useScrollAnimation(0.3);
 
     const devicons = {
         "Java": <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="24" height="24" alt="Java logo" />,
@@ -25,24 +28,27 @@ export default function About() {
     };
 
     return (
-        <div id="about" className="screen-container">
-            <h2 className="screen-header">About Me</h2>
+        <div id="about" className="screen-container" ref={aboutRef}>
+            <h2 className={`screen-header fade-in-up ${isAboutVisible ? 'animate' : ''}`}>About Me</h2>
 
-            <div className="about-content">
+            <div className={`about-content fade-in ${isAboutVisible ? 'animate' : ''}`}>
                 <p>
-                    Hello! I'm <b>Siva Surya</b>, a student with an interest in
-                    <b> Full Stack Development</b>. I have experience working with
-                    technologies like Java, JavaScript, HTML, CSS, and React.js for
-                    building user interfaces.
+                    Hi! I'm <b>Siva Surya</b>, a passionate <b>Full Stack Developer</b> who enjoys building modern <b>web and mobile applications</b>. I work with technologies like <b>Java</b>, <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>, and <b>React.js</b> to create <b>responsive</b> and <b>user-friendly interfaces</b>.
                 </p>
+
                 <p>
-                    I have also worked with backend technologies such as Struts 2,
-                    Node.js, and Express.js, along with MySQL for database
-                    management. I am currently learning and improving my skills by
-                    building web and mobile applications using React Native and Expo.
+                    On the backend, I have experience with <b>Node.js</b>, <b>Express.js</b>, and <b>Struts 2</b>, along with <b>MySQL</b> for <b>database management</b>.
+                </p>
+
+                <p>
+                    Currently, I’m expanding my skills in <b>mobile app development</b> using <b>React Native</b> and <b>Expo</b>, continuously learning and building <b>projects</b> that improve my <b>development skills</b>.
+                </p>
+
+                <p>
+                    I’m always excited to <b>explore new technologies</b> and turn <b>ideas into real-world applications</b>.
                 </p>
             </div>
-            <div className="languages-section">
+            <div className={`languages-section fade-in-up ${isAboutVisible ? 'animate' : ''}`}>
                 <h3 className="languages-title">Languages & Technologies I Know</h3>
                 {Object.entries(skills).map(([category, items]) => (
                     <div key={category} className="skill-category">
