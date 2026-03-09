@@ -7,7 +7,7 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 export default function Projects() {
     const [projectsRef, isProjectsVisible] = useScrollAnimation(0.1);
     const [activeFilter, setActiveFilter] = useState('All');
-    const filters = ['All', 'Java', 'HTML & CSS', 'React Native', 'Js', 'Node.js', 'Scratch', 'Group project'];
+    const filters = ['All', 'Java', 'React Native', 'Js', 'Node.js', 'HTML & CSS' ,'Scratch', 'Group project'];
 
     const displayedProjects = activeFilter === 'All' ? projectsData : projectsData.filter(p => p.category.includes(activeFilter));
 
