@@ -39,7 +39,7 @@ export default function Contact() {
                             <FaLinkedin size={24} />
                         </a>
                     </div>
-                    <p>&copy; {new Date().getFullYear()} Siva Surya M G. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Sivasurya Murugaraj. All rights reserved.</p>
                 </div>
             </footer>
         </div>

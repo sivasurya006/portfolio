@@ -5,7 +5,7 @@
 }
 .typing-animation::after{
      content: "|";
-     color: white;
+     color: var(--text-color);
      -webkit-text-stroke: 0px;
      font-weight: 100;
 }

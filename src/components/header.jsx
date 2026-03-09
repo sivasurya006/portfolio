@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import '../styles/style.css'
+import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
 
@@ -52,19 +53,22 @@ export default function Header() {
   return (
     <div className='header'>
       <h1 className='header-name'><a href='#home' style={{textDecoration:'none'}}>Portfolio</a></h1>
-      <ul className='header-sections'>
-        {
-          sections.map(s => (
-            <li
-              key={s.name}
-              className={activeSection === s.name ? 'active' : ''}
-              onClick={() => scrollToSection(s.name, s.id)}
-            >
-              {s.name}
-            </li>
-          ))
-        }
-      </ul>
+      <div className='header-right'>
+        <ul className='header-sections'>
+          {
+            sections.map(s => (
+              <li
+                key={s.name}
+                className={activeSection === s.name ? 'active' : ''}
+                onClick={() => scrollToSection(s.name, s.id)}
+              >
+                {s.name}
+              </li>
+            ))
+          }
+        </ul>
+        <ThemeToggle />
+      </div>
     </div>
   )
 }

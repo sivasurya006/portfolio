@@ -1,17 +1,11 @@
-import { createContext, useState, useEffect } from 'react';
-
-export const ThemeContext = createContext();
+import { useState, useEffect } from 'react';
+import { ThemeContext } from './ThemeContext';
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState('dark');
-
-  // read from localStorage if available
-  useEffect(() => {
+  const [theme, setTheme] = useState(() => {
     const stored = localStorage.getItem('theme');
-    if (stored === 'light' || stored === 'dark') {
-      setTheme(stored);
-    }
-  }, []);
+    return stored === 'light' || stored === 'dark' ? stored : 'light';
+  });
 
   useEffect(() => {
     document.body.classList.remove('light-theme', 'dark-theme');
