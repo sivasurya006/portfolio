@@ -39,12 +39,12 @@ export default function HeroContainer() {
                     <h3 className='hero-text-two'><a style={{textDecoration:'none'}} href='#about' >I'm <span className='my-name'>Sivasurya Murugaraj</span></a></h3>
                 </div>
                 <div className='heroTypeAnimation'>
-                    <p className='sub-head' >Trained in</p>
+                    <p className='sub-head' >Getting trained in</p>
                     <h2 className="hero-texts typing-animation"></h2>
                 </div>
                 <div className='actions'>
                     <PrimaryButton text={'View my work'} onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} />
-                    <SecondaryButton text={'Contact me'} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} />
+                    <SecondaryButton text={"Let's Connect"} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} />
                 </div>
             </div>
             <div className='profile-container'>

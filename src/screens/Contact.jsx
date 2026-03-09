@@ -9,14 +9,24 @@ export default function Contact() {
     return (
         <div className="contact-page-container" ref={contactRef}>
             <section id="contact" className="screen-container contact-section">
-                <h2 className={`project-category-title fade-in-up ${isContactVisible ? 'animate' : ''}`}>Get In Touch</h2>
+                <h2 className={`screen-header fade-in-up ${isContactVisible ? 'animate' : ''}`}>Open to Opportunities</h2>
                 <div className="contact-cards-container">
                     <div className={`contact-card fade-in-left ${isContactVisible ? 'animate' : ''}`} style={{ animationDelay: isContactVisible ? '0.2s' : '0s' }}>
                         <FaEnvelope className="contact-icon" size={30} />
                         <h3>Email</h3>
                         <a href="mailto:sivasurya.mg@zohocorp.com">sivasurya.mg@zohocorp.com</a>
                     </div>
-                    {/* <div className="contact-card">
+                    {/* <div classN
+or
+
+HTML
+￼
+￼
+￼
+￼
+<p>© 2026 Siva Surya. All rights reserved.</p>
+✔ Clean
+✔ Professionalame="contact-card">
                         <FaPhoneAlt className="contact-icon" size={30} />
                         <h3>Mobile</h3>
                         <a href="tel:9344790269">9344790269</a>

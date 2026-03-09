@@ -7,9 +7,22 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 export default function Projects() {
     const [projectsRef, isProjectsVisible] = useScrollAnimation(0.1);
     const [activeFilter, setActiveFilter] = useState('All');
-    const filters = ['All', 'Java', 'React Native', 'Js', 'Node.js', 'HTML & CSS' ,'Scratch', 'Group project'];
+    const [showAllProjects, setShowAllProjects] = useState(false);
+    const filters = ['All', 'Java', 'Js', 'Node.js','React Native' ,'HTML & CSS' ,'Scratch', 'Group project'];
+    const INITIAL_PROJECTS_COUNT = 6;
 
-    const displayedProjects = activeFilter === 'All' ? projectsData : projectsData.filter(p => p.category.includes(activeFilter));
+    const filteredProjects = activeFilter === 'All' ? projectsData : projectsData.filter(p => p.category.includes(activeFilter));
+    const displayedProjects = activeFilter === 'All' && !showAllProjects
+        ? filteredProjects.slice(0, INITIAL_PROJECTS_COUNT)
+        : filteredProjects;
+    const shouldShowLoadMore = activeFilter === 'All' && !showAllProjects && filteredProjects.length > INITIAL_PROJECTS_COUNT;
+
+    const handleFilterChange = (filter) => {
+        setActiveFilter(filter);
+        if (filter !== 'All') {
+            setShowAllProjects(false);
+        }
+    };
 
     const handleCardClick = (url, githubUrl) => {
         const link = url || githubUrl;
@@ -28,9 +41,9 @@ export default function Projects() {
                         <button
                             key={filter}
                             className={`filter-btn ${activeFilter === filter ? 'active' : ''}`}
-                            onClick={() => setActiveFilter(filter)}
+                            onClick={() => handleFilterChange(filter)}
                         >
-                            {filter}
+                            {filter == 'Js' ? 'JS' : filter}
                         </button>
                     ))}
                 </div>
@@ -84,6 +97,14 @@ export default function Projects() {
                         </div>
                     ))}
                 </div>
+
+                {shouldShowLoadMore && (
+                    <div className="load-more-container">
+                        <button className="load-more-btn" onClick={() => setShowAllProjects(true)}>
+                            Load more
+                        </button>
+                    </div>
+                )}
             </div>
         </div>
     );

@@ -209,5 +209,33 @@
     "lang": [
       "scratch"
     ]
+  },
+    {
+    "id": "scratch-3",
+    "title": "Presidents of India",
+    "desc": "Collaborative Scratch project Drawing the Presidents Of India through pixel art.",
+    "category": [
+      "Group project"
+    ],
+    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/scratch_project/Presidents%20Of%20India/Presidents%20Of%20India.html",
+    "githubUrl": "",
+    "imgUrl": "/portfolio/assets/project_thumbnail/presidents.png",
+    "lang": [
+      "scratch"
+    ]
+  },
+    {
+    "id": "scratch-4",
+    "title": "Interactive Drawing",
+    "desc": "An interactive drawing tool built with Scratch that lets users draw shapes and patterns using simple controls.",
+    "category": [
+      "Scratch"
+    ],
+    "url": "https://scratch.mit.edu/projects/1187778262/fullscreen/",
+    "githubUrl": "",
+    "imgUrl": "/portfolio/assets/project_thumbnail/paint.png",
+    "lang": [
+      "scratch"
+    ]
   }
 ]
