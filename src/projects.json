@@ -48,13 +48,13 @@
     ]
   },
   {
-    "title": "Cypher Safe",
+    "title": "CipherSafe",
     "desc": "Web-based file encryptor and decryptor implementing the AES algorithm using JavaScript",
     "category": [
       "Js"
     ],
-    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/FIleEncryptionAndDecryption-1/",
-    "githubUrl": "",
+    "url": "https://sivasurya006.github.io/ciphersafe/",
+    "githubUrl": "https://github.com/sivasurya006/ciphersafe",
     "imgUrl": "/portfolio/assets/project_thumbnail/web_file_enc.png",
     "lang": [
       "html & css",
@@ -68,7 +68,7 @@
     "category": [
       "HTML & CSS"
     ],
-    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Web_Project/Project/index.html",
+    "url": "https://sivasurya006.github.io/Mutiplayer_AI_clone/",
     "githubUrl": "https://github.com/sivasurya006/Mutiplayer_AI_clone",
     "imgUrl": "/portfolio/assets/project_thumbnail/multiplayer.png",
     "lang": [
@@ -77,7 +77,7 @@
   },
     {
     "id": "node-2",
-    "title": "Cypher Safe 2.0",
+    "title": "CipherSafe 2.0",
     "desc": "Full-stack file encryptor/decryptor with Node.js backend, auth system, and usage history",
     "category": [
       "Node.js"
@@ -161,8 +161,8 @@
     "category": [
       "HTML & CSS"
     ],
-    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_014/pixelarity.html",
-    "githubUrl": "",
+    "url": "https://sivasurya006.github.io/pixelarity/",
+    "githubUrl": "https://github.com/sivasurya006/pixelarity",
     "imgUrl": "/portfolio/assets/project_thumbnail/pixelarity.png",
     "lang": [
       "html & css"
@@ -175,8 +175,8 @@
     "category": [
       "HTML & CSS"
     ],
-    "url": "https://sivasuryamg-3ikyitoo-8443.zcodecorp.in/html_demo/Assignments/ass_013/fylo.html",
-    "githubUrl": "",
+    "url": "https://sivasurya006.github.io/fylo/",
+    "githubUrl": "https://github.com/sivasurya006/fylo",
     "imgUrl": "/portfolio/assets/project_thumbnail/fylo.png",
     "lang": [
       "html & css"

@@ -43,8 +43,8 @@ export default function HeroContainer() {
                     <h2 className="hero-texts typing-animation"></h2>
                 </div>
                 <div className='actions'>
-                    <PrimaryButton text={'View my work'} onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} />
-                    <SecondaryButton text={"Let's Connect"} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} />
+                    <PrimaryButton text={'View my works'} onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} />
+                    <SecondaryButton text={"Happy to connect"} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} />
                 </div>
             </div>
             <div className='profile-container'>

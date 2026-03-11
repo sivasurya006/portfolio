@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <div className="contact-page-container" ref={contactRef}>
             <section id="contact" className="screen-container contact-section">
-                <h2 className={`screen-header fade-in-up ${isContactVisible ? 'animate' : ''}`}>Open to Opportunities</h2>
+                <h2 className={`screen-header fade-in-up ${isContactVisible ? 'animate' : ''}`}>Happy to learn and connect</h2>
                 <div className="contact-cards-container">
                     <div className={`contact-card fade-in-left ${isContactVisible ? 'animate' : ''}`} style={{ animationDelay: isContactVisible ? '0.2s' : '0s' }}>
                         <FaEnvelope className="contact-icon" size={30} />

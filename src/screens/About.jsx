@@ -43,33 +43,33 @@ export default function About() {
         backend: ["Struts 2", "Node.js", "Express.js"],
         mobile: ["React Native", "Expo"],
         database: ["MySQL"],
-tools: [
-  "Zoho Code",
-  "VS Code",
-  "IntelliJ IDEA",
-  "Eclipse",
-  "GitHub",
-  "Postman",
-  "npm",
-  "Selenium",
-  "Render",
-  "Antigravity",
-  "Copilot",
-  "ChatGPT",
-  "Claude",
-  "Gemini",
-  "Perplexity",
-  "Qwen"
-]
+        tools: [
+            "Zoho Code",
+            "VS Code",
+            "IntelliJ IDEA",
+            "Eclipse",
+            "GitHub",
+            "Postman",
+            "npm",
+            "Selenium",
+            "Render",
+            "Antigravity",
+            "Copilot",
+            "ChatGPT",
+            "Claude",
+            "Gemini",
+            "Perplexity",
+            "Qwen"
+        ]
     };
     const categoryLabels = {
-        overall: "Core Skills",
-        languages: "Languages",
-        frontend: "Frontend",
-        backend: "Backend",
-        mobile: "Mobile",
-        database: "Database",
-        tools: "Tools"
+        overall: "Growing Skills",
+        languages: "Programming Languages",
+        frontend: "Frontend Learning",
+        backend: "Backend Learning",
+        mobile: "Mobile Exploration",
+        database: "Database Learning",
+        tools: "Tools I Used"
     };
 
     const nonToolCategories = Object.keys(skills).filter((category) => category !== 'tools');
@@ -87,7 +87,7 @@ tools: [
                 <div className="about-content-card">
                     <div className="about-content">
                         <p>
-                           A software development enthusiast with a strong interest in building practical and efficient applications. I work with technologies like Java, JavaScript, HTML, CSS, and React.js to create responsive and user-friendly interfaces.
+                            A software development enthusiast with a strong interest in building practical and efficient applications. I work with technologies like Java, JavaScript, HTML, CSS, and React.js to create responsive and user-friendly interfaces.
                         </p>
 
                         <p>
@@ -99,7 +99,7 @@ tools: [
                         </p>
 
                         <p>
-                           I enjoy constantly learning, brainstorming ideas, and exploring new technologies to improve skills and build better solutions.
+                            I enjoy constantly learning, brainstorming ideas, and exploring new technologies to improve skills and build better solutions.
                         </p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ tools: [
                                 className={`skill-filter-btn ${activeCategory === category ? 'active' : ''}`}
                                 onClick={() => setActiveCategory(category)}
                             >
-                                {categoryLabels[category] || category}
+                                {category == 'overall' ? 'Core Skills' : category}
                             </button>
                         ))}
                     </div>
